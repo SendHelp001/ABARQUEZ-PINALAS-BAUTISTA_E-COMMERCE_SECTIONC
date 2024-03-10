@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding: var(--scroll-padding, 5rem);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  transition: all 0.5s ease;
+}
+a {
+  text-decoration: none;
+}
+
+body {
+  background-color: rgb(255, 255, 255);
+  transition: all 0.5s ease;
+  background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/max_3840/ba32b592385599.5e4a823b76a41.jpg");
+  background-size: cover;
+  overflow: hidden;
+}
+
+.login-form {
+  width: 300px;
+  height: 300px;
+  margin: 100px 0 0 100px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.floating {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.326) 0%, rgba(0, 0, 0, 1) 52%, rgba(0, 0, 0, 0.37) 100%);
+  box-shadow: rgba(0, 0, 0, 0.5) 5px 5px, rgba(0, 46, 170, 0.3) 10px 10px, rgba(0, 46, 170, 0.2) 15px 15px, rgba(0, 46, 170, 0.1) 20px 20px, rgba(0, 46, 170, 0.05) 25px 25px;
+  color: white;
+  margin: 200px 0 0 70px;
+  width: 500px;
+  height: 210px;
+  border-radius: 25px;
+}
+
+.spacer{
+  margin: 10px 10px 10px 10px;
+}
